@@ -1,0 +1,6 @@
+fastapi 
+uvicorn[standard] 
+algokit-utils 
+python-dotenv 
+pydantic
+google-generativeai
