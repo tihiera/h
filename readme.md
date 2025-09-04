@@ -1,10 +1,10 @@
-Hask – Tokenizing Human Potential on Algorand
+## Hask – Tokenizing Human Potential on Algorand
 
 Hask is a demo dApp that lets users create a profile, tokenize it as an Algorand ASA (Algorand Standard Asset), and allow others to invest in them by holding their profile tokens.
 
 It’s a playful proof-of-concept that mixes AI + blockchain to show how personal reputation and achievement could be turned into investable upside.
 
-✨ Features
+#### ✨ Features
 
 - Profile Creation – Users create accounts with their name, bio, and social links.
 - AI Worth Estimation – Gemini LLM estimates how much a user is “worth” based on their description.
@@ -13,7 +13,7 @@ It’s a playful proof-of-concept that mixes AI + blockchain to show how persona
 - Notifications – Pending/accepted investment requests appear in a notification panel.
 - Demo-Ready – Works fully on LocalNet (via AlgoKit + Lora Explorer). No real funds required.
 
-🚀 Quick Start
+#### 🚀 Quick Start
 Backend
 cd backend
 pip install -r requirements.txt
@@ -28,9 +28,9 @@ npm run dev
 Backend runs on http://localhost:8000
 Frontend runs on http://localhost:5173
 
-Make sure to have 
+Make sure to have algokit installed. Follow this [link](https://dev.algorand.co/getting-started/algokit-quick-start/) to install
 
-🛠️ Tech Stack
+#### 🛠️ Tech Stack
 
 FastAPI – backend API + blockchain orchestration
 AlgoKit Utils – manage Algorand LocalNet, accounts, and ASAs
